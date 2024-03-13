@@ -1,16 +1,16 @@
 <script setup>
-import Container from "./Container.vue";
-import Text from "./Text.vue";
-import Image from "./Image.vue";
-import List from "./List.vue";
-import CustomTabs from "./Tabs/CustomTabs.vue";
-import CustomTab from "./Tabs/CustomTab.vue";
-import Carousel from "./Carousel.vue";
-import Box from "./Box/Box.vue";
-import BoxItem from "./Box/BoxItem.vue";
-import Link from "./Link.vue";
-import SocialLink from "./SocialLink.vue";
-import AccentedBlock from "./AccentedBlock.vue";
+import Container from "../components/Container.vue";
+import Text from "../components/Text.vue";
+import Image from "../components/Image.vue";
+import List from "../components/List.vue";
+import CustomTabs from "../components/Tabs/CustomTabs.vue";
+import CustomTab from "../components/Tabs/CustomTab.vue";
+import Carousel from "../components/Carousel.vue";
+import Box from "../components/Box/Box.vue";
+import BoxItem from "../components/Box/BoxItem.vue";
+import Link from "../components/Link.vue";
+import SocialLink from "../components/SocialLink.vue";
+import AccentedBlock from "../components/AccentedBlock.vue";
 import { Slide } from "vue3-carousel";
 </script>
 
@@ -41,9 +41,9 @@ import { Slide } from "vue3-carousel";
 		<AccentedBlock>
 			<Text>
 				The emergence of the
-				<Link url="https://trustwallet.com/solana-wallet" blank>Solana blockchain</Link>
+				<Link url="https://trustwallet.com/solana-wallet">Solana blockchain</Link>
 				provided NFT developers with an alternative blockchain to
-				<Link url="https://trustwallet.com/ethereum-wallet" blank>Ethereum</Link>, where they could mint NFTs
+				<Link url="https://trustwallet.com/ethereum-wallet">Ethereum</Link>, where they could mint NFTs
 				faster and with lower gas fees. The growth
 				of the NFT market on Solana NFTs led to the establishment of multiple
 				NFT marketplaces like Magic Eden, which is currently the most popular
@@ -58,7 +58,7 @@ import { Slide } from "vue3-carousel";
 				This guide will delve into the Magic Eden NFT marketplace and how you
 				can get started with the platform. Remember, if you are looking for a
 				good
-				<Link url="https://trustwallet.com/solana-wallet" blank>Solana wallet</Link>, you can use Trust Wallet
+				<Link url="https://trustwallet.com/solana-wallet">Solana wallet</Link>, you can use Trust Wallet
 				to buy, sell, manage, and stake your SOL
 				tokens.
 			</Text>
@@ -78,7 +78,7 @@ import { Slide } from "vue3-carousel";
 				</Text>
 				<Text>
 					The platform enables users to create, buy, sell, and collect
-					<Link url="https://trustwallet.com/nft" blank>NFTs</Link>.
+					<Link url="https://trustwallet.com/nft">NFTs</Link>.
 					Additionally, Magic Eden offers features such as developer resources,
 					an NFT launchpad, and a non-custodial browser extension wallet.
 				</Text>
@@ -91,7 +91,7 @@ import { Slide } from "vue3-carousel";
 			<CustomTab title="Getting Started with Magic Eden">
 				<Text>
 					To get started with Magic Eden, you’ll first need a Solana-compatible
-					<Link url="https://trustwallet.com/blog/crypto-wallet" blank>crypto wallet</Link>
+					<Link url="https://trustwallet.com/blog/crypto-wallet">crypto wallet</Link>
 					like Trust Wallet. You’ll also need to ensure you have enough SOL
 					tokens in your Solana wallet to cover the gas fees on the Solana
 					blockchain and pay for your NFT.
@@ -109,7 +109,7 @@ import { Slide } from "vue3-carousel";
 			<li>
 				<Text>
 					Go to
-					<Link url="https://trustwallet.com/download" blank>https://trustwallet.com/download</Link>
+					<Link url="https://trustwallet.com/download">https://trustwallet.com/download</Link>
 					to install Trust Wallet.
 				</Text>
 			</li>
@@ -149,7 +149,7 @@ import { Slide } from "vue3-carousel";
 			<li>
 				<Text>
 					Visit
-					<Link url="https://magiceden.io/" blank>https://magiceden.io/</Link>.
+					<Link url="https://magiceden.io/">https://magiceden.io/</Link>.
 				</Text>
 			</li>
 			<li>
@@ -165,10 +165,10 @@ import { Slide } from "vue3-carousel";
 		<Text tag="h2"> Conclusion </Text>
 		<Text>
 			If you want to create and sell your own
-			<Link url="https://trustwallet.com/nft" blank>NFTs on Solana</Link>, the
+			<Link url="https://trustwallet.com/nft">NFTs on Solana</Link>, the
 			Magic Eden NFT marketplace is an excellent place to start. However, to do
 			this, you must have a compatible
-			<Link url="https://trustwallet.com/solana-wallet" blank>Solana wallet</Link>
+			<Link url="https://trustwallet.com/solana-wallet">Solana wallet</Link>
 			with enough SOL tokens to cover the gas fees and pay for the NFT you’ll
 			create. Using the WalletConnect crypto bridge, you can connect to Magic
 			Eden using Trust Wallet in a few simple steps, as described above.
@@ -180,7 +180,7 @@ import { Slide } from "vue3-carousel";
 			universe.
 		</Text>
 		<Text>
-			<Link url="https://trustwallet.com/nft" blank>NFTs</Link> have so much
+			<Link url="https://trustwallet.com/nft">NFTs</Link> have so much
 			potential as they have created a way to authenticate and prove ownership
 			of digital assets. In addition, they also empower digital creators and
 			owners, allowing them to enjoy new revenue streams thanks to NFT
